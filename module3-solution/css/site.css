@@ -1,0 +1,99 @@
+/********** Base styles **********/
+* {
+    box-sizing: border-box;
+  }
+
+/********** Header **********/
+  #header-nav {
+    background-color: teal;
+    border-radius: 0;
+    border: 0;
+  }
+
+  .navbar-brand {
+    padding-top: 25px;
+  }
+
+  .navbar-header {
+    height: 80px;
+  }
+
+  .navbar-brand h1 {
+    float: left;
+    position: relative;
+    color: white;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  #nav-list {
+    background-color: black;
+  }
+
+  #nav-list a {
+    text-align: center;
+  }
+
+  #nav-list a:hover {
+    background-color: black;
+  }
+
+  .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid black;
+  }
+
+  .navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -50px;
+  }
+
+  /********** Body **********/
+  #body-text {
+    margin-top: 2em;
+    padding: 10px;
+  }
+
+  #chicken-title {
+    color: black;
+    background-color: teal;
+    font-size: 25px;
+  }
+
+  #chicken-box {
+    color: black;
+    background-color: teal;
+    font-size: 14px;
+    padding-bottom: 10px;
+  }
+
+  /********** Desktop device view **********/
+  @media (min-width: 992px) {
+
+  }
+  
+  /********** Tablet device view **********/
+  @media (min-width: 768px) and (max-width: 991px) {
+
+  }
+  
+  /********** Mobile device view **********/
+  @media (max-width: 767px) {
+    .navbar-header {
+      height: 80px;
+    }
+    .navbar-brand {
+      padding-top: 30px;
+      height: 80px;
+    }
+    #collapsable-nav a { /* Collapsed nav menu text */
+      width: 100%;
+      background-color: rgb(82, 76, 76);
+      color: white;
+      font-size: 1.2em;
+    }
+    #collapsable-nav a span { /* Collapsed nav menu glyph */
+      font-size: 1em;
+      margin-right: 5px;
+    }
+  }
